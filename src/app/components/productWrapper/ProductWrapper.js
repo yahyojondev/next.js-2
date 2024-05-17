@@ -1,5 +1,5 @@
 "use client";
-import Product from "@/app/product/page";
+// import Product from "@/app/product/page";
 import { Button } from "@mui/material";
 import Image from "next/image";
 import React from "react";
