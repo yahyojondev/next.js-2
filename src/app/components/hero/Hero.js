@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import Image from "next/image";
-import React from "react";
+import React, { memo } from "react";
 import heroimages from "../../assets/images/heroright.jpg";
 
 const Hero = () => {
@@ -33,4 +33,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default memo(Hero);

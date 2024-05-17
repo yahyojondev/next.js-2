@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { memo } from "react";
 import footerimages from "@/app/assets/images/kasb.jpg";
 import Link from "next/link";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -67,4 +67,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default memo(Footer);

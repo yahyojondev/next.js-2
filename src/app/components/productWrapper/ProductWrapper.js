@@ -2,7 +2,7 @@
 // import Product from "@/app/product/page";
 import { Button } from "@mui/material";
 import Image from "next/image";
-import React from "react";
+import React, { memo } from "react";
 
 const ProductWrapper = ({ data }) => {
   console.log(data);
@@ -37,4 +37,4 @@ const ProductWrapper = ({ data }) => {
   );
 };
 
-export default ProductWrapper;
+export default memo(ProductWrapper);

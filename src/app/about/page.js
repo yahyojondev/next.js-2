@@ -1,9 +1,10 @@
 import React from "react";
+import Empty from "../components/empty/Empty";
 
 const About = () => {
   return (
-    <div>
-      <h2>About</h2>
+    <div className="about">
+      <Empty />
     </div>
   );
 };

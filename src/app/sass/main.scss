@@ -27,3 +27,12 @@ a {
 @import "./components/product.scss";
 @import "./components/footer.scss";
 @import "./pages/contact.scss";
+
+.blog,
+.login,
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0;
+}

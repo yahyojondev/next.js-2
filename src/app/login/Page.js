@@ -1,11 +1,12 @@
-import React from "react";
+import React, { memo } from "react";
+import Empty from "../components/empty/Empty";
 
 const Login = () => {
   return (
-    <div>
-      <h3>Login</h3>
+    <div className="login">
+      <Empty />
     </div>
   );
 };
 
-export default Login;
+export default memo(Login);

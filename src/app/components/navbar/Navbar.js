@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import ktimages from "../../assets/images/kasb.jpg";
 import Image from "next/image";
 import Link from "next/link";
@@ -43,4 +43,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default memo(Navbar);

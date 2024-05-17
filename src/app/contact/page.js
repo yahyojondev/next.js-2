@@ -1,5 +1,5 @@
 import { Button, TextField } from "@mui/material";
-import React from "react";
+import React, { memo } from "react";
 
 const Contact = () => {
   return (
@@ -52,4 +52,4 @@ const Contact = () => {
     </div>
   );
 };
-export default Contact;
+export default memo(Contact);
